@@ -1,0 +1,1030 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!
+ =========================================================
+ * CC Space SCSS - v1.0.0
+ =========================================================
+*/
+input,
+select,
+button,
+textarea {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  display: block;
+  vertical-align: middle;
+  white-space: normal;
+  background: none;
+  line-height: 1;
+  /* Browsers have different default form fonts */ }
+
+button:focus {
+  outline: 0; }
+
+/* Remove the stupid outer glow in Webkit */
+input:focus {
+  outline: 0; }
+
+/* Box Sizing Reset
+-----------------------------------------------*/
+/* All of our custom controls should be what we expect them to be */
+input,
+textarea {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box; }
+
+/* These elements are usually rendered a certain way by the browser */
+button,
+input[type=reset],
+input[type=button],
+input[type=submit],
+input[type=checkbox],
+input[type=radio],
+select {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* Text Inputs
+-----------------------------------------------*/
+/* Button Controls
+-----------------------------------------------*/
+input[type=checkbox],
+input[type=radio] {
+  width: auto;
+  height: auto; }
+
+/* File Uploads
+-----------------------------------------------*/
+/* Search Input
+-----------------------------------------------*/
+/* Make webkit render the search input like a normal text field */
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box; }
+
+/* Turn off the recent search for webkit. It adds about 15px padding on the left */
+::-webkit-search-decoration {
+  display: none; }
+
+/* Buttons
+-----------------------------------------------*/
+button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"] {
+  /* Fix IE7 display bug */
+  overflow: visible;
+  width: auto; }
+
+/* IE8 and FF freak out if this rule is within another selector */
+::-webkit-file-upload-button {
+  padding: 0;
+  border: 0;
+  background: none; }
+
+/* Textarea
+-----------------------------------------------*/
+textarea {
+  /* Move the label to the top */
+  vertical-align: top;
+  /* Turn off scroll bars in IE unless needed */
+  overflow: auto; }
+
+/* Selects
+-----------------------------------------------*/
+select[multiple] {
+  /* Move the label to the top */
+  vertical-align: top; }
+
+@font-face {
+  font-family: 'Agrandir';
+  src: url("/static/fonts/Agrandir-RegularC3.woff2") format("woff2"), url("/static/fonts/Agrandir-RegularC3.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Agrandir';
+  font-weight: normal;
+  font-style: normal; }
+
+p {
+  color: #0B4D8A; }
+
+.btn {
+  position: relative;
+  padding: 15px 00px;
+  background: #000;
+  color: #ffffff;
+  border-radius: 50px;
+  width: 120px;
+  font-size: 1em;
+  text-transform: lowercase; }
+  .btn.btn-yellow {
+    background: #F9B131; }
+  .btn.btn-blue {
+    background: #0B4D8A; }
+
+.input-group {
+  display: block;
+  padding-bottom: 20px; }
+
+label {
+  padding: 0 0 8px 15px;
+  display: block;
+  font-weight: 600;
+  font-size: 1.15em; }
+
+input {
+  border: 2px solid #F9B131;
+  padding: 15px 8px;
+  border-radius: 30px;
+  width: 480px;
+  display: block; }
+  input:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none; }
+
+.button-label {
+  display: inline-block;
+  padding: 15px 0;
+  margin: 12px;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  color: #0B4D8A;
+  border-radius: 30px;
+  background: #efefef;
+  transition: 0.3s;
+  user-select: none; }
+
+input:checked + .button-label {
+  background: #F9B131;
+  color: #0B4D8A; }
+
+.hidden {
+  display: none; }
+
+header {
+  position: fixed;
+  top: 0;
+  margin: 15px 0;
+  width: 100%;
+  left: 0;
+  z-index: 9999; }
+  header .logo {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px; }
+    header .logo img {
+      max-height: 70px; }
+
+nav {
+  overflow: hidden;
+  position: fixed;
+  left: 15px;
+  top: 15px; }
+
+#menuToggle {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 50px;
+  height: 30px;
+  padding: 10px; }
+
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+  opacity: 0;
+  /* hide this */
+  z-index: 2;
+  /* and place it over the hamburger */
+  -webkit-touch-callout: none; }
+
+/*
+  * Just a quick hamburger
+  */
+#menuToggle span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #0B4D8A;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease; }
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%; }
+
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%; }
+
+/* 
+  * Transform all the slices of hamburger
+  * into a crossmark.
+  */
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #0B4D8A; }
+
+/*
+  * But let's hide the middle one.
+  */
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2); }
+
+/*
+  * Ohyeah and the last one should go the other direction
+  */
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, -1px); }
+
+/*
+  * Make this absolute positioned
+  * at the top left of the screen
+  */
+#menu {
+  position: fixed;
+  top: 0;
+  width: 300px;
+  left: 0;
+  height: 100%;
+  margin: 0;
+  padding: 20vh 15px 20px 30px;
+  background: #F9B131;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  overflow: hidden; }
+  #menu li {
+    padding: 0 0 30px; }
+    #menu li:last-child {
+      padding-bottom: 0; }
+    #menu li a {
+      font-size: 1.15em;
+      font-weight: 700;
+      color: #0B4D8A;
+      text-decoration: none; }
+
+/*
+  * And let's slide it in from the left
+  */
+#menuToggle input:checked ~ ul {
+  transform: none; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  margin: 15px 0;
+  width: 100%;
+  left: 0; }
+  footer ul {
+    list-style: none;
+    padding: 0 15px;
+    font-size: .75em;
+    color: #F9B131; }
+    footer ul li {
+      float: left;
+      padding-right: 40px; }
+      footer ul li a {
+        color: #F9B131;
+        text-decoration: none;
+        text-transform: lowercase; }
+
+.col {
+  width: 100%;
+  float: left; }
+  .col.col_4 {
+    width: 40%; }
+  .col.col_6 {
+    width: 60%; }
+  .col.col_8 {
+    width: 80%; }
+  .col.col_12 {
+    width: 100%; }
+
+body {
+  position: relative;
+  font-size: 16px;
+  font-family: 'Muli', "Helvetica", Arial, sans-serif;
+  margin: 0;
+  padding: 0 20px;
+  color: #0B4D8A; }
+
+.clearfix {
+  position: relative; }
+  .clearfix:after {
+    content: '';
+    display: table;
+    clear: both; }
+
+.mainContent {
+  padding: 0 30px;
+  margin-top: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; }
+  .mainContent.homeContent {
+    align-items: start; }
+
+.box {
+  width: 900px;
+  margin: 0 auto;
+  font-size: 30px;
+  margin-top: 140px;
+  text-align: center; }
+
+.para {
+  font-size: 16px; }
+
+.rightHeading {
+  font-size: 1rem;
+  color: #F9B131;
+  font-size: 50px;
+  position: absolute;
+  bottom: 245px;
+  right: -45px;
+  /* margin-left: -30px; */
+  transform: rotate(-90deg);
+  margin: 0; }
+
+.payheader {
+  font-size: 30px;
+  color: #F9B131; }
+
+.fromwidth {
+  width: 100%;
+  margin-left: 20%; }
+
+.ccSpaceFlowList ul {
+  list-style: none; }
+  .ccSpaceFlowList ul li {
+    padding: 30px 0; }
+    .ccSpaceFlowList ul li a {
+      text-decoration: none;
+      color: #0B4D8A;
+      font-size: 4em;
+      font-weight: 700;
+      position: relative;
+      display: block;
+      z-index: 11; }
+      .ccSpaceFlowList ul li a:before {
+        content: '';
+        background: #F9B131;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        z-index: -1;
+        transition: all .25s ease-in-out; }
+      .ccSpaceFlowList ul li a:hover:before {
+        height: 30px; }
+
+.ccspaceFormHeadCol {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  font-size: 3em;
+  color: #F9B131; }
+
+.ccspaceFormCol {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  position: relative; }
+  .ccspaceFormCol:before {
+    content: '';
+    position: absolute; }
+
+.ccspaceFormBtns {
+  width: 100%;
+  padding-top: 30px; }
+  .ccspaceFormBtns .btn {
+    float: left; }
+    .ccspaceFormBtns .btn:last-child {
+      float: right; }
+
+body {
+  margin: 0;
+  padding: 0; }
+  body .bg {
+    background: url("/static/img/bg.jpg") no-repeat;
+    background: cover;
+    background-position: center; }
+  body .herologo {
+    margin-right: 10%; }
+  body .herologo img {
+    padding-top: 50px;
+    width: 100%; }
+  body .ccSpaceFlowList, body .herologo {
+    padding-top: 100px;
+    display: inline-block;
+    width: 48%; }
+
+.formContainer {
+  width: 100%; }
+
+.subjectCentre {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding: 150px 0; }
+
+.subjectCentre:after {
+  content: '';
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #F9B131; }
+
+/*# sourceMappingURL=app.38f71ecc0abd1f34deb4fdbad0e221ba.css.map*/
