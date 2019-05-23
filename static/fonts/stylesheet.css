@@ -1,0 +1,336 @@
+@font-face {
+    font-family: 'Agrandir Extra Wide';
+    src: url('Agrandir-ExtraWideBlackE7.woff2') format('woff2'),
+        url('Agrandir-ExtraWideBlackE7.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('Agrandir-LightC2.woff2') format('woff2'),
+        url('Agrandir-LightC2.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Extra Wide';
+    src: url('Agrandir-ExtraWideLightE2.woff2') format('woff2'),
+        url('Agrandir-ExtraWideLightE2.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Semi Narrow';
+    src: url('Agrandir-SemiNarrowMediumB4.woff2') format('woff2'),
+        url('Agrandir-SemiNarrowMediumB4.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Semi Narrow';
+    src: url('Agrandir-SemiNarrowBlackB7.woff2') format('woff2'),
+        url('Agrandir-SemiNarrowBlackB7.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Narrow';
+    src: url('Agrandir-NarrowRegularA3.woff2') format('woff2'),
+        url('Agrandir-NarrowRegularA3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('Agrandir-RegularC3.woff2') format('woff2'),
+        url('Agrandir-RegularC3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('Agrandir-BlackC7.woff2') format('woff2'),
+        url('Agrandir-BlackC7.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Oversized';
+    src: url('Agrandir-OversizedThinF1.woff2') format('woff2'),
+        url('Agrandir-OversizedThinF1.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Wide';
+    src: url('Agrandir-WideBoldD5.woff2') format('woff2'),
+        url('Agrandir-WideBoldD5.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Narrow';
+    src: url('Agrandir-NarrowBoldA5.woff2') format('woff2'),
+        url('Agrandir-NarrowBoldA5.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Narrow';
+    src: url('Agrandir-NarrowLightA2.woff2') format('woff2'),
+        url('Agrandir-NarrowLightA2.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Oversized';
+    src: url('Agrandir-OversizedLightF2.woff2') format('woff2'),
+        url('Agrandir-OversizedLightF2.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Narrow';
+    src: url('Agrandir-NarrowBlackA7.woff2') format('woff2'),
+        url('Agrandir-NarrowBlackA7.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Narrow';
+    src: url('Agrandir-NarrowHeavyA6.woff2') format('woff2'),
+        url('Agrandir-NarrowHeavyA6.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Semi Narrow';
+    src: url('Agrandir-SemiNarrowRegularB3.woff2') format('woff2'),
+        url('Agrandir-SemiNarrowRegularB3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Wide';
+    src: url('Agrandir-WideThinD1.woff2') format('woff2'),
+        url('Agrandir-WideThinD1.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Oversized';
+    src: url('Agrandir-OversizedBoldF5.woff2') format('woff2'),
+        url('Agrandir-OversizedBoldF5.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Narrow';
+    src: url('Agrandir-NarrowThinA1.woff2') format('woff2'),
+        url('Agrandir-NarrowThinA1.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Semi Narrow';
+    src: url('Agrandir-SemiNarrowHeavyB6.woff2') format('woff2'),
+        url('Agrandir-SemiNarrowHeavyB6.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Extra Wide';
+    src: url('Agrandir-ExtraWideRegularE3.woff2') format('woff2'),
+        url('Agrandir-ExtraWideRegularE3.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Wide';
+    src: url('Agrandir-WideMediumD4.woff2') format('woff2'),
+        url('Agrandir-WideMediumD4.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Extra Wide';
+    src: url('Agrandir-ExtraWideBoldE5.woff2') format('woff2'),
+        url('Agrandir-ExtraWideBoldE5.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Semi Narrow';
+    src: url('Agrandir-SemiNarrowThinB1.woff2') format('woff2'),
+        url('Agrandir-SemiNarrowThinB1.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Narrow';
+    src: url('Agrandir-NarrowMediumA4.woff2') format('woff2'),
+        url('Agrandir-NarrowMediumA4.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Wide';
+    src: url('Agrandir-WideLightD2.woff2') format('woff2'),
+        url('Agrandir-WideLightD2.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('Agrandir-MediumC4.woff2') format('woff2'),
+        url('Agrandir-MediumC4.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Oversized';
+    src: url('Agrandir-OversizedMediumF4.woff2') format('woff2'),
+        url('Agrandir-OversizedMediumF4.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Oversized';
+    src: url('Agrandir-OversizedHeavyF6.woff2') format('woff2'),
+        url('Agrandir-OversizedHeavyF6.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Wide';
+    src: url('Agrandir-WideBlackD7.woff2') format('woff2'),
+        url('Agrandir-WideBlackD7.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Wide';
+    src: url('Agrandir-WideRegularD3.woff2') format('woff2'),
+        url('Agrandir-WideRegularD3.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('Agrandir-BoldC5.woff2') format('woff2'),
+        url('Agrandir-BoldC5.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Extra Wide';
+    src: url('Agrandir-ExtraWideMediumE4.woff2') format('woff2'),
+        url('Agrandir-ExtraWideMediumE4.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Oversized';
+    src: url('Agrandir-OversizedRegularF3.woff2') format('woff2'),
+        url('Agrandir-OversizedRegularF3.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('Agrandir-ThinC1.woff2') format('woff2'),
+        url('Agrandir-ThinC1.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('Agrandir-HeavyC6.woff2') format('woff2'),
+        url('Agrandir-HeavyC6.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Extra Wide';
+    src: url('Agrandir-ExtraWideThinE1.woff2') format('woff2'),
+        url('Agrandir-ExtraWideThinE1.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Semi Narrow';
+    src: url('Agrandir-SemiNarrowLightB2.woff2') format('woff2'),
+        url('Agrandir-SemiNarrowLightB2.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Oversized';
+    src: url('Agrandir-OversizedBlackF7.woff2') format('woff2'),
+        url('Agrandir-OversizedBlackF7.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Extra Wide';
+    src: url('Agrandir-ExtraWideHeavyE6.woff2') format('woff2'),
+        url('Agrandir-ExtraWideHeavyE6.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Wide';
+    src: url('Agrandir-WideHeavyD6.woff2') format('woff2'),
+        url('Agrandir-WideHeavyD6.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir Semi Narrow';
+    src: url('Agrandir-SemiNarrowBoldB5.woff2') format('woff2'),
+        url('Agrandir-SemiNarrowBoldB5.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
