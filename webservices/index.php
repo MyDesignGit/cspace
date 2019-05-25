@@ -2,9 +2,9 @@
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Credentials: true');
 header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
-include './Db.php';
-include './Sendmail.php';
-include './SendSMS.php';
+include 'Db.php';
+include 'Sendmail.php';
+include 'SendSMS.php';
 $userdata = json_decode(file_get_contents('php://input'), true);
 $last_id;
 $values = array(
