@@ -5,9 +5,9 @@ header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
 $keyId = 'rzp_test_EW4KZOHU49tAMN';
 $keySecret = 'YL5JbIS20AJmP67AlPc3pW5r';
 $displayCurrency = 'INR';
-$serverName = 'localhost:3306';
-$userName = 'root';
-$passCode = '';
+$serverName = '207.38.84.105';
+$userName = 'csp';
+$passCode = 'sp@ced';
 $dbName = 'cspace';
 $tablename = "Users";
 try { 
